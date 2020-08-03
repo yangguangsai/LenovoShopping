@@ -31,7 +31,7 @@ $(function() {
 	});
 
 	//定时器
-	var starttime = new Date("2020/6/30");
+	var starttime = new Date("2020/12/31");
 	setInterval(function() {
 		var nowtime = new Date();
 		var time = starttime - nowtime;
